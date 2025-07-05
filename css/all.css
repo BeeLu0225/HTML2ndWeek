@@ -1,0 +1,258 @@
+/* 含式 */
+:root{
+    --color-Primary-200:#E8FEC5;
+    --color-Primary-300:#C0FA73;
+    --color-Primary-400:#57A203;
+    --color-Neutral-White:#FFFFFF;
+    --color-Neutral-100:#F8F9FA;
+    --color-Neutral-300:#DEE2E6;
+    --color-Neutral-600:#6C757D;
+    --color-Neutral-900:#212529;
+}
+
+/* 標籤的基本樣式 */
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat", "Noto Sans TC", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.05em;
+}
+
+img{
+	vertical-align: middle;
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+/* 通用樣式 */
+.container{
+    width: 1296px;
+    margin: 0 auto;
+}
+  
+.h1{
+    font-size: 40px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h3{
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h4{
+    font-size: 24px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.h6{
+    font-size: 16px;
+    line-height: 1.2;
+    font-weight: 700;
+}
+
+.md{
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+.sm{
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.w-40{
+    width: 40px;
+}
+
+.w-196{
+    width: 196px;
+}
+
+.w-1076{
+    width: 1076px;
+}
+
+.d-block{
+    display: block;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-w{
+    flex-wrap: wrap;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.al-c{
+    align-items: center;
+}
+
+.color-Neutral-White{
+    color: var(--color-Neutral-White);
+}
+
+.color-Neutral-300{
+    color: var(--color-Neutral-300);
+}
+
+.color-Neutral-600{
+    color: var(--color-Neutral-600);
+}
+
+.color-Neutral-900{
+    color: var(--color-Neutral-900);
+}
+
+.color-Primary-400{
+    color: var(--color-Primary-400);
+}
+
+.bg-color-Neutral-100{
+    background: var(--color-Neutral-100);
+}
+
+.bg-color-Neutral-900{
+    background: var(--color-Neutral-900);
+}
+
+.bg-color-Primary-200{
+    background: var(--color-Primary-200);
+}
+
+.bg-color-Primary-300{
+    background: var(--color-Primary-300);
+}
+
+.ta-canter{
+    text-align: center;
+}
+
+.py-7{
+    padding: 7px 0;
+}
+
+.py-8{
+    padding: 8px 0;
+}
+
+.py-12{
+    padding: 12px 0;
+}
+
+.py-16{
+    padding: 16px 0;
+}
+
+.py-24{
+    padding: 24px 0;
+}
+
+.py-32{
+    padding: 32px 0;
+}
+
+.py-64{
+    padding: 64px 0;
+}
+
+.pt-32{
+    padding-top: 32px;
+}
+
+.mt-32{
+    margin-top: 32px;
+}
+
+.mt-48{
+    margin-top: 48px;
+}
+
+.mb-4{
+    margin-bottom: 4px;
+}
+
+.mb-12{
+    margin-bottom: 12px;
+}
+
+.mb-16{
+    margin-bottom: 16px;
+}
+
+.mb-24{
+    margin-bottom: 24px;
+}
+
+.mb-48{
+    margin-bottom: 48px;
+}
+
+.mr-8{
+    margin-right: 8px;
+}
+
+.mr-12{
+    margin-right: 12px;
+}
+
+.mr-24{
+    margin-right: 24px;
+}
+
+.mr-40{
+    margin-right: 40px;
+}
+
+.mr-48{
+    margin-right: 48px;
+}
+
+.mr-auto{
+    margin-right: auto;
+}
+
+/* 個別設定 */
+.logo{
+    padding: 8px 12px;
+    font-family: Mina;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+    letter-spacing: 0.044em;
+}
+
+.p-buttom{
+    padding: 12px 24px;
+    border-radius: 4px;
+}
+
+.b-t{
+    border-top:1px solid var(--color-Neutral-300);
+}
+
+.card{
+    width: 30%;
+}

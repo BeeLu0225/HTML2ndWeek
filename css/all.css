@@ -264,6 +264,10 @@ a{
 }
 
 /* 個別設定 */
+.homework a:hover{
+    color:var(--color-Danger-300);
+}
+
 .hov-border-bottom:hover{
     border-bottom: 4px solid var(--color-Neutral-900);
     padding-bottom: 8px;
